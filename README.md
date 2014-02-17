@@ -14,3 +14,8 @@ COc1ccc(cc1C2OCC(CO2)(CO)[N+](=O)[O-])[N+](=O)[O-]	ZINC03616985
 And so should 
 
        cat test.smi | ./smiles2zinc.py
+
+Nonsensical input and SMILES that are not found simple return blank lines
+
+        echo 'OUEOUEO' | ./smiles2zinc.py 
+
