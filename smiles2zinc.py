@@ -41,8 +41,9 @@ def run_lots(arguments):
   else:
     openfile = open(arguments.infile, 'r')
   for line in openfile:
-    smilesZinc = smiles2zinc(string.strip(line))
-    print string.strip(smilesZinc)
+    smilesZinc = string.strip(smiles2zinc(string.strip(line)))
+    for zincline in string.split(smilesZinc, '\n'):
+      print string.strip(line), zincline
   
 
 if __name__ == '__main__':
