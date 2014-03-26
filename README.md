@@ -31,3 +31,6 @@ Produces:
 
 CCC1=CC(=C(C(=C1O)C(=O)NCC2CCCN2CC)OC)Cl CCc1cc(c(c(c1O)C(=O)NC[C@@H]2CCC[NH+]2CC)OC)Cl	ZINC00001395
 CCC1=CC(=C(C(=C1O)C(=O)NCC2CCCN2CC)OC)Cl CCc1cc(c(c(c1O)C(=O)NC[C@H]2CCC[NH+]2CC)OC)Cl	ZINC01997240
+
+
+Note that all the features of this code (and many more) have been integrated into this excellent package: https://github.com/rasbt/smilite
