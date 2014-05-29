@@ -1,6 +1,8 @@
 zinc-web
 ========
 
+[![doi](https://zenodo.org/badge/3853/ryancoleman/zinc-web.png)](http://dx.doi.org/10.5281/zenodo.10214)
+
 python scripts to fetch ZINC codes for smiles input
 
 Examples
